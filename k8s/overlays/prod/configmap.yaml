@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: atelier-app-config
+data:
+  config.json: |
+    {
+      "message": "Bonjour depuis l'environnement PROD"
+    }
+

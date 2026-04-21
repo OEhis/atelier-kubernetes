@@ -1,0 +1,5 @@
+node_modules
+.env
+*.log
+.npm-cache
+k8s/overlays/*/secrets.env

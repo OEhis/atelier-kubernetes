@@ -1,0 +1,22 @@
+{
+  "name": "atelier-kubernetes",
+  "version": "1.0.0",
+  "description": "Atelier Kubernetes/GitOps avec application Node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "test": "node --check app.js"
+  },
+  "keywords": [
+    "kubernetes",
+    "argocd",
+    "gitops",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
